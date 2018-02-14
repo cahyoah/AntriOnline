@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    android:id="@+id/cl_queue"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context="antrionline.antrionline.aon.ui.loginregister.LoginFragment"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <android.support.v7.widget.CardView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorWhite"
+                android:layout_margin="10dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                xmlns:android="http://schemas.android.com/apk/res/android">
+                <RelativeLayout
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/tv_hospital_name"
+                        android:gravity="center_vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toLeftOf="@id/img_call"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold"
+                        android:text="@string/text_hospital_name"/>
+                    <TextView
+                        android:id="@+id/tv_hospital_spesialis"
+                        android:gravity="center_vertical"
+                        android:layout_below="@id/tv_hospital_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toLeftOf="@id/img_call"
+                        android:textColor="@android:color/black"
+                        android:text="@string/text_hospital_spesialis"/>
+                    <TextView
+                        android:id="@+id/tv_hospital_address"
+                        android:gravity="center_vertical"
+                        android:layout_below="@+id/tv_hospital_spesialis"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toLeftOf="@id/img_call"
+                        android:textColor="@android:color/black"
+                        android:text="@string/text_hospital_address"/>
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:text="@string/text_patient_data"
+                        android:textColor="@android:color/black"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <RelativeLayout
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:textColor="@android:color/black"
+                            android:layout_centerVertical="true"
+                            android:text="@string/text_same_with_my_data"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <CheckBox
+                            android:id="@+id/cb_use_my_data"
+                            android:layout_alignParentRight="true"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </RelativeLayout>
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <EditText
+                            android:id="@+id/et_patient_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:hint="@string/text_patient_name"
+                            android:inputType="text"
+                            android:textColor="@android:color/black"/>
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <EditText
+                            android:id="@+id/et_responsible_patient_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:hint="@string/text_responsible_patient_name"
+                            android:inputType="text"
+                            android:textColor="@android:color/black"/>
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <EditText
+                            android:id="@+id/et_phone_number"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:hint="@string/text_phone_number"
+                            android:inputType="text"
+                            android:textColor="@android:color/black" />
+                    </android.support.design.widget.TextInputLayout>
+
+
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <EditText
+                            android:id="@+id/et_address"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:hint="@string/text_address"
+                            android:inputType="text"
+                            android:textColor="@android:color/black"/>
+                    </android.support.design.widget.TextInputLayout>
+
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:id="@+id/tv_date"
+                            android:textSize="18sp"
+                            android:layout_centerVertical="true"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:hint="@string/text_date"
+                            android:inputType="date"
+                            android:textColor="@android:color/black"/>
+
+                        <Button
+                            android:id="@+id/btn_choose_date"
+                            android:text="@string/text_choose"
+                            android:layout_alignParentRight="true"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:text="@string/text_time"
+                        android:textColor="@android:color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <android.support.v7.widget.AppCompatSpinner
+                        android:id="@+id/sp_time"
+                        android:entries="@array/sp_time"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp">
+                    </android.support.v7.widget.AppCompatSpinner>
+
+                    <TextView
+                        android:text="@string/text_aim"
+                        android:textColor="@android:color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <RadioGroup
+                        android:id="@+id/rg_aim"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <RadioButton
+                            android:id="@+id/rb_self"
+                            android:checked="true"
+                            android:text="@string/text_queue_self"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                        <RadioButton
+                            android:id="@+id/rb_family"
+                            android:text="@string/text_queue_family"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                        <RadioButton
+                            android:id="@+id/rb_friend"
+                            android:text="@string/text_queue_friend"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                    </RadioGroup>
+
+                    <Button
+                        android:id="@+id/btn_queue"
+                        android:layout_margin="10dp"
+                        android:text="@string/text_queue"
+                        android:textColor="@color/colorWhite"
+                        android:background="@color/colorLightBlueA400"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+</android.support.design.widget.CoordinatorLayout>

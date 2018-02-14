@@ -1,0 +1,124 @@
+<android.support.design.widget.CoordinatorLayout
+    android:id="@+id/cl_register"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context="antrionline.antrionline.aon.ui.loginregister.LoginFragment"
+    android:orientation="vertical">
+
+    <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorWhite">
+
+        <LinearLayout
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_gravity="center"
+                android:src="@drawable/logo"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+            <RelativeLayout
+                android:layout_marginTop="20dp"
+                android:background="@drawable/background_edit_text"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/et_name"
+                    android:layout_centerInParent="true"
+                    android:hint="@string/text_name"
+                    android:backgroundTint="@android:color/transparent"
+                    android:background="@drawable/background_edit_text"
+                    android:layout_margin="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:background="@drawable/background_edit_text"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/et_email"
+                    android:layout_centerInParent="true"
+                    android:hint="@string/text_email"
+                    android:backgroundTint="@android:color/transparent"
+                    android:background="@drawable/background_edit_text"
+                    android:layout_margin="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:background="@drawable/background_edit_text"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/et_phone_number"
+                    android:layout_centerInParent="true"
+                    android:inputType="phone"
+                    android:hint="@string/text_phone_number"
+                    android:backgroundTint="@android:color/transparent"
+                    android:background="@drawable/background_edit_text"
+                    android:layout_margin="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:background="@drawable/background_edit_text"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/et_password"
+                    android:hint="@string/text_password"
+                    android:background="@drawable/background_edit_text"
+                    android:backgroundTint="@android:color/transparent"
+                    android:inputType="textPassword"
+                    android:layout_margin="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+
+
+            <Button
+                android:id="@+id/btn_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/text_register"
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold"
+                android:background="@drawable/rounded_register_button"
+                />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_open_login"
+            android:background="@drawable/background_text_view"
+            android:layout_alignParentBottom="true"
+            android:padding="15dp"
+            android:gravity="center"
+            android:text="@string/text_have_account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

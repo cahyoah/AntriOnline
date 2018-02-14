@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">AOn</string>
+
+
+    <string name="text_address">Alamat</string>
+    <string name="text_aim">Tujuan</string>
+    <string name="text_akun">Akun</string>
+    <string name="text_cannot_empty">Harus diisi</string>
+    <string name="text_choose">Pilih</string>
+    <string name="text_date">Tanggal</string>
+    <string name="text_doctor_name">Nama Dokter</string>
+    <string name="text_doctor_spesialis">Spesialis Dokter</string>
+    <string name="text_doctor_address">Alamat Dokter</string>
+    <string name="text_doctor_phone">Phone Doctor</string>
+    <string name="text_email">Email</string>
+    <string name="text_email_not_empty">Email tidak boleh kosong</string>
+    <string name="text_forgot_password">Lupa Password</string>
+    <string name="text_have_account">Sudah Punya Akun? Masuk</string>
+    <string name="text_home">Home</string>
+    <string name="text_hospital_name">Nama Rumah Sakit</string>
+    <string name="text_hospital_spesialis">Spesialis Rumah Sakit</string>
+    <string name="text_hospital_address">Alamat Rumah Sakit</string>
+    <string name="text_hospital_phone">Phone Rumah Sakit</string>
+    <string name="text_loading">Silahkan tunggu....</string>
+    <string name="text_login">Masuk</string>
+    <string name="text_logout">Keluar</string>
+    <string name="text_name">Nama</string>
+    <string name="text_name_not_empty">Nama tidak boleh kosong</string>
+    <string name="text_no_account">Belum Punya Akun? Daftar</string>
+    <string name="text_password_not_empty">Password tidak boleh kosong</string>
+    <string name="text_phone_number_not_empty">No Hp tidak boleh kosonh</string>
+    <string name="text_phone_number">No Handphone</string>
+    <string name="text_password">Password</string>
+    <string name="text_password_new">Password Baru</string>
+    <string name="text_password_new_confirm">Konfirmasi Password Baru</string>
+    <string name="text_patient_data">Data Pasien</string>
+    <string name="text_patient_name">Nama Pasien</string>
+    <string name="text_register">Daftar</string>
+    <string name="text_responsible_patient_name">Nama penanggung jawab</string>
+    <string name="text_reset_password">Reset Password</string>
+    <string name="text_same_with_my_data">Gunakan data saya</string>
+    <string name="text_save">Simpan</string>
+    <string name="text_time">Waktu</string>
+    <string name="text_queue">Antri</string>
+    <string name="text_queue_number">1</string>
+    <string name="text_queue_number_title">No. Antrian</string>
+    <string name="text_queue_family">Mendaftarkan anggota keluarga</string>
+    <string name="text_queue_friend">Mendaftarkan teman/ kerabat/ tetangga</string>
+    <string name="text_queue_self">Mendaftarkan diri sendiri</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

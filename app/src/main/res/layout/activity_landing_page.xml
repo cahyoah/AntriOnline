@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="antrionline.antrionline.aon.ui.landingpage.LandingPageActivity">
+
+    <RelativeLayout
+        android:paddingTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/logo"
+            android:layout_width="180dp"
+            android:layout_height="180dp" />
+    </RelativeLayout>
+    <LinearLayout
+        android:gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/btn_open_register"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:text="@string/text_register"
+            android:background="@drawable/rounded_register_button"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_open_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_login"
+            android:textColor="@color/colorLightBlueA400"
+            android:textStyle="bold"
+            android:layout_marginBottom="60dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/rounded_login_button"
+            />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
